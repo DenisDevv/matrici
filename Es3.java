@@ -7,9 +7,9 @@ public class Es3 {
         };
         
         if (isSimmetrica(maQuadrata)) {
-            
+            System.out.println("La matrice è simmetrica");
         } else {
-            
+            System.out.println("La matrice non è simmetrica");
         }
     }
     public static boolean isSimmetrica(int[][] maQuadrata) {
